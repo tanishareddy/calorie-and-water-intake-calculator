@@ -1,0 +1,65 @@
+
+                                  Calorie and Water Intake Tracker
+                
+1. Brief Description of Project
+The Calorie and Water Intake Tracker is a terminal-based mini-project developed in C that helps users
+monitor their daily calorie consumption and water intake. It allows users to log meals, calculate total
+calories and track hydration levels. It also allows the user to store new items and their calories for
+future reference.
+
+2. Purpose / Goal
+The purpose of this project is to help users keep track of their daily calorie consumption and water
+intake to support a healthier lifestyle. The goal is to enable users to stay healthy, prevent overeating,
+and maintain a balanced diet by monitoring their food and hydration habits.
+
+3. Usefulness / Benefit
+● For Users: Helps maintain a healthy lifestyle by easily tracking daily calorie intake and water
+consumption.
+● For Diet-Conscious Individuals: Supports weight management, portion control, and balanced
+eating habits.
+● For Fitness Enthusiasts: Complements workout routines by aligning nutrition and hydration
+● For Health Professionals: Provides a basic tool to encourage patient accountability and
+promote healthier daily routines.
+
+4. Hardware / Software Involved
+Hardware Requirements:
+● Standard PC/Laptop
+● Minimum 2GB RAM
+● 500MB disk space
+Software Requirements:
+● Programming Language: C
+● Compiler: GCC / Turbo C / Code::Blocks
+● Operating System: Windows/Linux/MacOS
+
+5. Detailed Feature List
+User Module:
+● Log Meals
+● Track Calorie Intake (Auto-summed per entry)
+● Log Water Intake (e.g., number of litres)
+● View Daily Summary (Calories Consumed, Water Intake Progress)
+● Provides recommendations based on age, weight, height and activity level.
+Admin Module:
+● Set or Update Default Calorie/Water Guidelines
+● View User Logs (For analysis/testing)
+● Data Backup and Export
+
+6. Test / Demonstration Plan
+Unit Testing:
+Test individual functionalities such as menu registration, meal logging, and water tracking.
+Integration Testing:
+Ensure proper flow between modules — e.g., meal logging should update calorie summaries
+accurately.
+System Testing:
+Validate overall system behavior — input, calculations, and summary reporting.
+User Acceptance Testing:
+Test with sample users to ensure ease of use, clarity of output, and alignment with real-world
+tracking needs.
+
+7. Expected Interaction Interface and Sample Use Cases
+Interaction Interface:
+● terminal-based UI with menu-driven navigation
+● Input through simple text prompts
+● Option to display output at the end of every program.
+
+Sample Use Cases:
+User runs the program → Goes to menu → Updates daily calorie and water goals → Saves changes→ Tracker reflects new targets.
