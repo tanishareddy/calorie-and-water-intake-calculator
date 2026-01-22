@@ -1,65 +1,43 @@
+                                         Installation & Setup
 
-                                  Calorie and Water Intake Tracker
-                
-1. Brief Description of Project
-The Calorie and Water Intake Tracker is a terminal-based mini-project developed in C that helps users
-monitor their daily calorie consumption and water intake. It allows users to log meals, calculate total
-calories and track hydration levels. It also allows the user to store new items and their calories for
-future reference.
+To compile and run the project:
 
-2. Purpose / Goal
-The purpose of this project is to help users keep track of their daily calorie consumption and water
-intake to support a healthier lifestyle. The goal is to enable users to stay healthy, prevent overeating,
-and maintain a balanced diet by monitoring their food and hydration habits.
+1.Clone the repository
 
-3. Usefulness / Benefit
-● For Users: Helps maintain a healthy lifestyle by easily tracking daily calorie intake and water
-consumption.
-● For Diet-Conscious Individuals: Supports weight management, portion control, and balanced
-eating habits.
-● For Fitness Enthusiasts: Complements workout routines by aligning nutrition and hydration
-● For Health Professionals: Provides a basic tool to encourage patient accountability and
-promote healthier daily routines.
+      git clone https://github.com/tanishareddy/calorie-and-water-intake-calculator.git
 
-4. Hardware / Software Involved
-Hardware Requirements:
-● Standard PC/Laptop
-● Minimum 2GB RAM
-● 500MB disk space
-Software Requirements:
-● Programming Language: C
-● Compiler: GCC / Turbo C / Code::Blocks
-● Operating System: Windows/Linux/MacOS
 
-5. Detailed Feature List
-User Module:
-● Log Meals
-● Track Calorie Intake (Auto-summed per entry)
-● Log Water Intake (e.g., number of litres)
-● View Daily Summary (Calories Consumed, Water Intake Progress)
-● Provides recommendations based on age, weight, height and activity level.
-Admin Module:
-● Set or Update Default Calorie/Water Guidelines
-● View User Logs (For analysis/testing)
-● Data Backup and Export
+2.Navigate to the project folder
 
-6. Test / Demonstration Plan
-Unit Testing:
-Test individual functionalities such as menu registration, meal logging, and water tracking.
-Integration Testing:
-Ensure proper flow between modules — e.g., meal logging should update calorie summaries
-accurately.
-System Testing:
-Validate overall system behavior — input, calculations, and summary reporting.
-User Acceptance Testing:
-Test with sample users to ensure ease of use, clarity of output, and alignment with real-world
-tracking needs.
+       cd calorie-and-water-intake-calculator
 
-7. Expected Interaction Interface and Sample Use Cases
-Interaction Interface:
-● terminal-based UI with menu-driven navigation
-● Input through simple text prompts
-● Option to display output at the end of every program.
 
-Sample Use Cases:
-User runs the program → Goes to menu → Updates daily calorie and water goals → Saves changes→ Tracker reflects new targets.
+3.Compile the code using GCC
+
+        gcc -o intake main.c
+
+
+(Replace main.c with the actual source filename if different.)
+
+4.Run the compiled program
+
+       ./intake
+
+       
+Once executed, the application guides you through a simple text-based menu:
+
+-Add a meal and its calories
+-Enter water intake amounts
+-View the daily summary
+
+(User interaction is through typed menu choices and input values.)
+
+PROJECT STRUCTURE:
+
+calorie-and-water-intake-calculator/
+├── .gitattributes
+├── README.md
+├── daily_log.csv
+├── foods_with_categories.csv
+├── jackfruit.c
+└── (Your C source files)
