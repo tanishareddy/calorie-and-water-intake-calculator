@@ -23,12 +23,16 @@ To compile and run the project:
 
        ./intake
 
+
        
 Once executed, the application guides you through a simple text-based menu:
 
 -Add a meal and its calories
+
 -Enter water intake amounts
+
 -View the daily summary
+
 
 (User interaction is through typed menu choices and input values.)
 
@@ -36,8 +40,13 @@ PROJECT STRUCTURE:
 
 calorie-and-water-intake-calculator/
 ├── .gitattributes
+
 ├── README.md
+
 ├── daily_log.csv
+
 ├── foods_with_categories.csv
+
 ├── jackfruit.c
+
 └── (Your C source files)
