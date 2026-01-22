@@ -39,6 +39,8 @@ Once executed, the application guides you through a simple text-based menu:
 PROJECT STRUCTURE:
 
 calorie-and-water-intake-calculator/
+
+
 ├── .gitattributes
 
 ├── README.md
